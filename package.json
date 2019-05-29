@@ -1,13 +1,19 @@
 {
     "name": "hexo-picture",
     "description": "optimize images with html5 picture tag",
-    "version": "0.0.1",
+    "keywords": [
+        "hexo",
+        "plugin",
+        "image",
+        "picture"
+    ],
+    "version": "0.1.0",
     "dependencies": {},
     "author": "Ivan Borisenko",
     "license": "MIT",
     "main": "index",
     "repository": {
         "type": "git",
-        "url": "git@github.com:13g10n/hexo-picture.git"
+        "url": "https://github.com/13g10n/hexo-picture.git"
     }
 }
