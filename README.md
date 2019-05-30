@@ -12,7 +12,7 @@ npm install --save hexo-picture
 
 ## Usage
 ```
-{% picture image_path %}
+{% picture path [alt] %}
 ```
 
 ## License
