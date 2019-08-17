@@ -1,21 +1,37 @@
 {
-    "name": "hexo-picture",
-    "description": "optimize images with html5 picture tag",
-    "keywords": [
-        "hexo",
-        "plugin",
-        "image",
-        "picture"
-    ],
-    "version": "0.2.0",
-    "dependencies": {
-        "sharp": "^0.22.1"
-    },
-    "author": "Ivan Borisenko <mteru00@gmail.com>",
-    "license": "MIT",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/13g10n/hexo-picture.git"
-    }
+  "name": "hexo-picture",
+  "version": "0.3.0",
+  "description": "Optimize images with HTML5 picture tag.",
+  "keywords": [
+    "hexo",
+    "hexo-plugin",
+    "image",
+    "picture",
+    "html5",
+    "optimization"
+  ],
+  "scripts": {
+    "lint": "eslint ./lib",
+    "test": "mocha"
+  },
+  "author": "Ivan Borisenko <mteru00@gmail.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:13g10n/hexo-picture.git"
+  },
+  "dependencies": {
+    "sharp": "^0.22.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-hexo": "^3.0.0",
+    "hexo": "^3.9.0",
+    "hexo-util": "^0.6.3",
+    "mocha": "^6.2.0"
+  }
 }
